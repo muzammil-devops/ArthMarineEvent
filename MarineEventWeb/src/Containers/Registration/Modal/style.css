@@ -1,0 +1,73 @@
+.popup-size {
+  width: 30% !important;
+}
+@media only screen and (max-width: 600px) {
+  .popup-size {
+    width: 90% !important;
+    margin: auto !important;
+  }
+}
+
+.close-btn {
+  background: #dc2722;
+  position: absolute;
+  right: -20px;
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  top: -20px;
+  cursor: pointer;
+  z-index: 99999 !important;
+}
+
+.close-btn span {
+  display: inline-block;
+  position: relative;
+  top: -136%;
+  color: white;
+}
+
+.control-form-food-preference {
+  margin: 20px 0 0 0;
+}
+
+.a-dot:after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: #dc2722;
+  border-radius: 50%;
+  margin: 0 6px;
+}
+
+.veg:after {
+  background: #10c300;
+}
+
+.non-veg:after {
+  background: #dc2722;
+}
+
+.modal-head {
+  color: #000;
+  font-size: 22.281px;
+  font-family: 'Inter-Regular';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.modal-lbl {
+  color: #000;
+  font-size: 22.281px;
+  font-family: 'Inter-Regular';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.extra-caption {
+  display: block;
+  margin-left: 55px;
+}

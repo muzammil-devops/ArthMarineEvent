@@ -1,0 +1,106 @@
+.main-container {
+  padding: 40px 6% 0;
+  background-color: #eaedf4;
+  padding-bottom: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .main-container {
+    padding: 70px 6% 0;
+    padding-bottom: 50px;
+  }
+}
+
+.button-wrapper {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.button {
+  border-radius: 100px;
+  color: #ffffff;
+  background: #dc2722;
+  display: inline-flex;
+  padding: 14px 48px;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Inter-Regular';
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 600px) {
+  .button {
+    font-size: 18px;
+    padding: 10px 25px;
+  }
+}
+
+.section-heading {
+  text-align: center;
+  color: #000;
+  font-size: 32px;
+  font-family: 'Inter-Medium';
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-heading {
+    font-size: 24px;
+  }
+}
+
+.main-description {
+  color: #000;
+  text-align: justify;
+  font-size: 26px;
+  font-family: 'Inter-Regular';
+  font-style: normal;
+  font-weight: 400;
+  display: inline-block;
+  margin-bottom: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-description {
+    font-size: 16px;
+  }
+}
+
+.schedule-description .heading {
+  color: #000;
+  text-align: justify;
+  font-size: 26px;
+  font-family: 'Inter-Medium';
+  font-style: normal;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 600px) {
+  .schedule-description .heading {
+    font-size: 16px;
+  }
+}
+
+.text-content {
+  color: #000;
+  text-align: justify;
+  font-size: 26px;
+  font-family: 'Inter-Regular';
+  font-style: normal;
+  font-weight: 400;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+  .text-content {
+    font-size: 16px;
+  }
+}

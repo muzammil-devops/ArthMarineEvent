@@ -1,0 +1,95 @@
+.section-success {
+  padding: 120px 6% 0;
+  background-color: #eaedf4;
+  padding-bottom: 70px;
+}
+@media only screen and (max-width: 600px) {
+  .section-form {
+    padding: 70px 6% 0;
+    padding-bottom: 50px;
+  }
+}
+
+.wrapper-success {
+  background-color: white;
+  border-radius: 8px;
+  border-top: 3px solid #25156d;
+  padding-bottom: 65px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.form-body {
+  padding: 0 3%;
+}
+@media only screen and (max-width: 600px) {
+  .form-body {
+    padding: 0 5%;
+  }
+}
+
+.success-tick-container {
+  text-align: center;
+}
+
+.success-tick-container img {
+  width: 11%;
+}
+@media only screen and (max-width: 600px) {
+  .success-tick-container img {
+    width: 25%;
+  }
+}
+
+.success-form-heading {
+  padding: 20px;
+}
+
+.success-heading {
+  margin: 30px 0;
+  font-size: 26px;
+  font-family: 'Inter-Bold';
+}
+@media only screen and (max-width: 600px) {
+  .success-heading {
+    font-size: 18px;
+  }
+}
+
+.success-text-content {
+  margin: 30px 0;
+  font-size: 26px;
+  font-family: 'Inter-Regular';
+}
+@media only screen and (max-width: 600px) {
+  .success-text-content {
+    font-size: 18px;
+  }
+}
+
+.venue-description {
+  margin: 30px 0;
+}
+
+.sales-details {
+  margin: 30px 0;
+}
+
+.cls-bold {
+  font-size: 26px;
+  font-family: 'Inter-Bold';
+}
+@media only screen and (max-width: 600px) {
+  .cls-bold {
+    font-size: 18px;
+  }
+}
+
+.cls-text {
+  font-size: 26px;
+  font-family: 'Inter-Regular';
+}
+@media only screen and (max-width: 600px) {
+  .cls-text {
+    font-size: 18px;
+  }
+}
