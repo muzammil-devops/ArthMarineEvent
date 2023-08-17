@@ -2,7 +2,7 @@
 ## Install Packages:- apt install node npm mysql-sever openjdk-11-jdk maven -y
 ## edit configuration file in mysql:- cd /etc/mysql/mysql.conf.d/ => nano mysqld.cnf => bind-address 0.0.0.0
 ## Restart Mysql :- systemctl restart mysql
-##Setup Mysql:- mysql
+## Setup Mysql:- mysql
 - **create database AthmarineEvent;
 - **RENAME USER 'root'@'locahost' TO 'root'@'%';
 - **ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'mysql23';
