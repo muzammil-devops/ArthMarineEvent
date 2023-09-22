@@ -14,6 +14,3 @@
 
 ## Backend = cd /MarineEvent/src/main/resources/application.properties  => jdbc:mysql://public_Ip:3306/AthmarineEvent
 
-
-
-hello 
